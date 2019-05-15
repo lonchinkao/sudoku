@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="game_states">
+		<item>Not started</item>
+		<item>Playing</item>
+		<item>Solved</item>
+	</string-array>
+    <string-array name="game_levels">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+	<string-array name="theme_names">
+		<item>Default</item>
+		<item>Paper I</item>
+		<item>Paper II</item>
+		<item>Light</item>
+		<item>Paper Light I</item>
+		<item>Paper Light II</item>
+	</string-array>
+	<!-- Theme codes should not change, do not translate this! -->
+	<string-array name="theme_codes" translatable="false">
+		<item>default</item>
+		<item>paperi</item>
+		<item>paperii</item>
+		<item>light</item>
+		<item>paperlighti</item>
+		<item>paperlightii</item>
+	</string-array>
+    <!-- End of theme codes -->
+
+	<string-array name="typeface_names">
+		<item>normal</item>
+		<item>sans</item>
+		<item>arial</item>
+		<item>serif</item>
+		<item>monospace</item>
+	</string-array>
+
+	<string-array name="typeface_codes">
+		<item>normal</item>
+		<item>sans</item>
+		<item>arial</item>
+		<item>serif</item>
+		<item>monospace</item>
+	</string-array>
+	<!-- End of typeface codes -->
+
+	<string-array name="fontsize_names">
+		<item>Very Large</item>
+		<item>Large</item>
+		<item>Regular</item>
+		<item>Small</item>
+		<item>Very Small</item>
+	</string-array>
+
+	<string-array name="fontsize_codes" translatable="false">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+	</string-array>
+
+
+	<string-array name="fontstyle_names">
+		<item>Normal</item>
+		<item>Bold</item>
+		<item>Italic</item>
+		<item>Bold Italic</item>
+	</string-array>
+
+	<string-array name="fontstyle_codes" translatable="false">
+		<item>Normal</item>
+		<item>Bold</item>
+		<item>Italic</item>
+		<item>BoldItalic</item>
+	</string-array>
+
+
+</resources>

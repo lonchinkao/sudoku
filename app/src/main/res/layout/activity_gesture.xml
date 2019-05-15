@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/draw_a_gesture"
+        android:textSize="30sp" />
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gestures"
+        android:layout_width="486dp"
+        android:layout_height="100dp"
+        android:layout_weight="1.0"
+        android:fadeEnabled="true"
+        android:fadeOffset="1000"
+        android:gestureStrokeType="multiple" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Draw a Number I will try to input"
+        android:textSize="18sp" />
+
+</LinearLayout>

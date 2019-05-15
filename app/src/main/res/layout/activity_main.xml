@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lonch.sudoku.MainActivity">
+
+    <!-- view for AdMob Interstitial Ad -->
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/interstitial_ad_sample"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/next_level_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:text="@string/next_level" />
+
+    <Button
+        android:id="@+id/buttonplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/next_level_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="Play" />
+
+    <Button
+        android:id="@+id/buttonhelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonplay"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/buttonplay"
+        android:layout_marginBottom="17dp"
+        android:text="Help" />
+
+    <Button
+        android:id="@+id/buttonsetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonplay"
+        android:layout_alignRight="@+id/buttonplay"
+        android:layout_below="@+id/buttonplay"
+        android:layout_marginTop="38dp"
+        android:text="Setting" />
+
+    <Button
+        android:id="@+id/buttonhand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonhelp"
+        android:layout_alignRight="@+id/buttonhelp"
+        android:layout_below="@+id/buttonsetting"
+        android:layout_marginTop="26dp"
+        android:text="Hand Writing" />
+
+    <Button
+        android:id="@+id/buttonnumlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonhand"
+        android:layout_alignBottom="@+id/buttonhand"
+        android:layout_toEndOf="@+id/app_title"
+        android:layout_toRightOf="@+id/app_title"
+        android:text="Enter Number" />
+
+</RelativeLayout>
